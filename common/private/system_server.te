@@ -18,3 +18,5 @@ get_prop(system_server, vendor_persist_camera_prop)
 
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)
+
+add_service(system_server, app_lock_service);
